@@ -1,0 +1,39 @@
+body{
+    background-color: azure;
+
+}
+h1{
+    background-color: rgb(115, 178, 157);
+    color: azure;
+    font-family: cabin;
+    float: center;
+}
+#show_sketch{
+    background-color: rgb(115, 178, 157);
+    color: azure;
+    float: right;
+    font-family: cabin;
+}
+p{
+    font-size: x-large;
+    font-family: cabin;
+}
+canvas{
+    border-width: 2.5px;
+    border-style: solid;
+    border-color:rgb(115, 178, 157) ;
+    border-radius: 5px;
+    animation-name: g;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes g{
+    from{box-shadow: 10px 5px 5px rgb(0, 255, 213);}
+    to{box-shadow: 10px 5px 5px rgb(33, 57, 33);}
+
+}
+#do{
+    background-color:rgb(115, 178, 157); 
+    border-color: rgb(115, 178, 157);
+}
